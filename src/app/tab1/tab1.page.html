@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+      <ion-item *ngFor="let anz of anzeigen" href="{{anz.link}}">
+        {{anz.title}}
+        <div class="item-note" slot="end">
+            <span>{{anz.created_at}}</span>
+        </div>
+      </ion-item>
+    </ion-list>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "ebayApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
